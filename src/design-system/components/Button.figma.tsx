@@ -1,4 +1,3 @@
-import React from "react"
 import Button from "./Button"
 import figma from "@figma/code-connect"
 
@@ -25,7 +24,7 @@ figma.connect(
       type: figma.enum("Type", {
         Primary: "primary",
         Secondary: "secondary",
-        Tertairy: "tertairy",
+        Tertairy: "tertiary",
       }),
       state: figma.enum("State", {
         Default: "default",
@@ -40,6 +39,14 @@ figma.connect(
         Small: "small",
       }),
     },
-    example: (props) => <Button />,
+    example: (props: any) => (
+    <Button
+     type={props.type}
+     size={props.size}
+     state={props.state}
+     >
+      {props.buttonText || "Button"}
+     </Button>
+     ),
   },
 )
