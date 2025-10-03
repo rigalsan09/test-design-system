@@ -1,0 +1,7 @@
+{
+  "codeConnect": {
+    "include": ["src/design-system/components/**/*.{tsx,jsx}"],
+    "label": "React",
+    "interactiveSetupFigmaFileUrl": "https://www.figma.com/design/20NAw98U29at3n327QbUXS/Claris-Design-System---Web"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "@design-system/icon",
+  "version": "1.0.0",
+  "description": "SVG-based icon component for the design system",
+  "main": "index.ts",
+  "types": "index.ts",
+  "files": [
+    "Icon.tsx",
+    "Icon.css.ts",
+    "Icon.stories.tsx",
+    "index.ts",
+    "README.md",
+    "svgs/"
+  ],
+  "dependencies": {
+    "clsx": "^2.0.0"
+  },
+  "devDependencies": {
+    "@vanilla-extract/css": "^1.12.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  }
+}
